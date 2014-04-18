@@ -1,0 +1,27 @@
+{
+  "name": "javascript-sandbox",
+  "version": "0.0.1",
+  "description": "Javascript source to source compiler that strips out access to the global object",
+  "private": true,
+  "bugs": {
+    "email": "jason@snowcapstudios.com"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "jake": "latest"
+  },
+  "dependencies": {
+    "estraverse": "~1.5.0",
+    "escodegen": "~1.0.1",
+    "esprima": "~1.0.4",
+    "esmangle": "0.0.17",
+    "escope": "~1.0.1",
+    "jslint": "~0.2.6",
+    "jshint": "~2.4.1"
+  },
+  "engines": {
+    "node": "0.10.24"
+  }
+}
